@@ -1,0 +1,13 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname prologue-input_and_output) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(require 2htdp/image)
+
+(define (y x) (* x x)) ;;; consider y a function
+                       ;;; and x is the input
+                       ;;; the second part (* x x) is the expression
+ ;;; once x is replaced with a value, say 1, DrRacket can compute the
+ ;;; result of the expressions, which is also called the output of the
+ ;;; function.
+
+
