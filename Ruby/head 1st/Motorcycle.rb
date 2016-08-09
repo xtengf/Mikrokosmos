@@ -1,4 +1,4 @@
-class Truck
+class Motorcycle
 
   attr_accessor :odometer
   attr_accessor :gas_used

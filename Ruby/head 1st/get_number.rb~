@@ -1,7 +1,0 @@
-# Get My Number Game
-# Written by: u!
-
-puts "Welcome to 'Get My Number!'"
-print "What's ur name? "
-input = gets
-puts "Welcome, #{input}"
