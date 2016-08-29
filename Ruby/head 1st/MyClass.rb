@@ -1,16 +1,7 @@
 class MyClass
-  
-  def my_attribute=(new_value)
-    @my_attribute = new_value
+  def initialize(my_param)
+    puts "Got a parameter from 'new": #{my_param}""
   end
-  
-  def my_attribute
-    @my_attribute
-  end
-  
 end
 
-my_instance = MyClass.new
-# my_instance.my_attribute = "a value"
-puts my_instance.my_attribute = "fan"
-puts my_instance.my_attribute = ("fancy")
+MyClass.new("hello")
