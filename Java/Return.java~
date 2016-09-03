@@ -1,0 +1,21 @@
+public class Return {
+    public static void printLogarithm(double x) {
+        if (x <= 0.0) {
+            System.err.println("Error: x must be positive.");
+            return;
+        }
+        
+        double result = Math.log(x);
+        System.out.println("The log of x is " + result);
+    }
+    
+    public static void countdown(int n) {
+        if (n == 0) {
+            System.out.println("Blastoff!");
+        } else {
+            System.out.println(n);
+            countdown(n - 1);
+        }
+    }
+}
+                                   
