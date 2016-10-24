@@ -1,0 +1,6 @@
+#!/Users/tengfeixiao/code/Mikrokosmos/Python/testing/bin/python3.5
+
+import sys
+from robot import run_cli
+
+run_cli(sys.argv[1:])
