@@ -1,0 +1,16 @@
+public class Encapsulation {
+    
+    public static void table(int n) {
+        
+        int i = 1;
+        while (i <= 6) {
+            System.out.println("%4d", 2 * i);
+            i = i + 1;
+        }
+        System.out.println();
+    }
+    
+    public static void main(String[] args) {
+        table(9);
+    }
+}
